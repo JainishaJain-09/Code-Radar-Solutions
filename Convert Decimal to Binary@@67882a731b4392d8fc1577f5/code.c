@@ -3,7 +3,7 @@
 int main()
 {
     int num;
-    printf("Enter an integer: ");
+    printf(" ");
     scanf("%d", &num);
     printBinary(num);
     printf("\n");
