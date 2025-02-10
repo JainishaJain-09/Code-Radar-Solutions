@@ -1,14 +1,16 @@
 #include<stdio.h>
-void printBinary(unsigned int num){
-    if(num>1)
-    printfBinary(num>>1);
-    printf("%d",num & 1);
+void printBinary(int n){
+    if(n>1){
+        printfBinary(n / 2);
+    }
+    printf("%d", n % 2);
 }
 
 int main()
 {
-    unsigned int num;
-    scanf("%u",&num);
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
     printBinary(num);
     printf("\n");
     return 0;
