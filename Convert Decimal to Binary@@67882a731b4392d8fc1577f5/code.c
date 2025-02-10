@@ -6,5 +6,6 @@ int main()
     printf(" ");
     scanf("%d", &num);
     printBinary(num);
+    printf("%d", num);
     return 0;
 }
