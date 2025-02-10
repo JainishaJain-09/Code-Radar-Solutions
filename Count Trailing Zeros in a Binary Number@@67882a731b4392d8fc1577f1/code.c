@@ -14,6 +14,6 @@ int main(){
 int main(){
     unsigned int a;
     scanf("%u",&a);
-    printf("%d\n",counttrailingzeroes(a));
+    printf("%d\n",countRrailingZeroes(a));
     return 0;
 }
