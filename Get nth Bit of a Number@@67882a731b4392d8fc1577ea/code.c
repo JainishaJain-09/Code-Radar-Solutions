@@ -2,8 +2,8 @@
 
 int main(){
     int a,n;
-    scanf("%d 5d",&a,&n);
-    int bit_value = (num >> n) & 1;
-    printf("%d\n",bit_value);
+    scanf("%d %d",&a,&n);
+    int result = (num >> n) & 1;
+    printf("%d\n",result);
     return 0;
 }
