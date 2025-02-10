@@ -11,7 +11,7 @@ int main(){
     int count = 0;
     while ((a & (1 << 31)) == 0){
         count++;
-        num <<= 1;
+        a <<= 1;
    }
    printf("%d\n",count);
    return 0;
