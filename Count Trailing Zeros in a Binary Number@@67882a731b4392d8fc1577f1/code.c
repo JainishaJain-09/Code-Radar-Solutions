@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int counttrailingzeroes(unsigned int a){
+    int countTrailingZeroes(unsigned int a){
         if (a == 0)return 32;
         int count = 0;
         while ((a & 1) == 0){
@@ -11,7 +11,7 @@ int main(){
         return count;
     }
 }
-int msin(){
+int main(){
     unsigned int a;
     scanf("%u",&a);
     printf("%d\n",counttrailingzeroes(a));
