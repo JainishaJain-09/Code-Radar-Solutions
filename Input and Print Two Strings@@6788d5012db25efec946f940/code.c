@@ -1,11 +1,7 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main(){
-    char x[30];
-    char y[30];
-    scanf("%s",&x);
-    scanf("%s",&y);
-    printf("You entered: %s and %s", x,y);
+    char ch[100];
+    scanf("%c",&ch);
+    printf("You entered: %c";ch);
     return 0;
-
 }
