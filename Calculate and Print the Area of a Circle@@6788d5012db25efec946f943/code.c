@@ -1,9 +1,8 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main(){
-    float x;
-    scanf("%f",&x);
-    x = 3.14 * x * x;
-    printf("Area: %.2f", x);
+    float a = 3.14;
+    int r;
+    scanf("%f %d",&a,&r);
+    printf("Area: %.2f",a*r*r);
     return 0;
-    }
+}
