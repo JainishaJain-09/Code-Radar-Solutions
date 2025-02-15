@@ -1,13 +1,6 @@
-#include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-int main() {
-    float a;
-    scanf("%f",&a);
-    printf("You entered: %.2f",a);
-    
+#include<stdio.h>
+int main(){
+    float a = 3.14;
+    printf("You entered%f",a);
     return 0;
 }
