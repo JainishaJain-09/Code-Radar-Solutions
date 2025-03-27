@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    ch a,b;
+    char a,b;
     scanf("%c %c",&a,&b);
     switch(a,b){
         case '+':
