@@ -1,22 +1,27 @@
 #include<stdio.h>
 int main(){
-    char a,b;
-    scanf("%c %c",&a,&b);
-    switch(a,b){
+    char operator;
+    int a,b,result;
+    scanf("%c",&operator);
+    scanf("&d",&a,&b);
+    switch(operator){
         case '+':
-        printf("a+b");
+        result=a+b;
         break;
 
         case '-':
-        printf("a-b");
+        result=a-b;
+        
         break;
 
         case '*':
-        printf("a*b");
+        result=a*b;
+        
         break;
 
         case '/':
-        printf("a/b");
+        result=a/b;
+        
         break;
 
         default:
