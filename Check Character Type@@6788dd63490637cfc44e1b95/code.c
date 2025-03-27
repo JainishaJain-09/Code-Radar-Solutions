@@ -9,4 +9,5 @@ int main(){
     else{
         printf("Consonant");
     }
+    return 0;
 }
