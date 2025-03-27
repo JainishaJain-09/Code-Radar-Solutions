@@ -3,6 +3,7 @@
 int main(){
     char ch;
     scanf("%c",&ch);
+    ch=tolower(ch);
     if(ch>="a" && ch<="z" ){
     if(ch="a" || ch="e" || ch="i" || ch="o" || ch="u"){
         printf("Vowel");
