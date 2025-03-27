@@ -40,7 +40,7 @@ int main(){
         case 12:
         printf("December");
         break;
-        default;
+        default:
         printf(Invalid month);
     }
 }
