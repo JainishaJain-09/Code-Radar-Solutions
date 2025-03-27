@@ -6,10 +6,10 @@ int main(){
     if(n<2){
         printf("Not Prime");
     }
-    else if(num == 2 || num == 3 || num == 5 || num == 7){
+    else if(n == 2 || n == 3 || n == 5 || n == 7){
         printf("Prime");
     }
-    else if(num % 2 == 0 || num % 3 == 0 || num % 5 == 0 || num % 7 == 0){
+    else if(n % 2 == 0 || n % 3 == 0 || n % 5 == 0 || n % 7 == 0){
         printf("Not Prime");
     }
     else{
