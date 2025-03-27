@@ -1,8 +1,8 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
+    int n;
+    scanf("%d",&n);
     if(n<2){
         printf("Not Prime");
     }
