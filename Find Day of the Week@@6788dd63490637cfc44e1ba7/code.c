@@ -3,26 +3,37 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(1){
+    switch(a){
+        case 1:
         printf("Monday");
-    }
-    else if(2){
+        break;
+
+        case 2:
         printf("Tuesday");
-    }
-    else if(3){
+        break;
+
+        case 3:
         printf("Wednesday");
-    }
-    else if(4){
+        break;
+
+        case 4:
         printf("Thrusday");
-    }
-    else if(5){
+        break;
+
+        case 5:
         printf("Friday");
-    }
-    else if(6){
+        break;
+
+        case 6:
         printf("Saturday");
-    }
-    else{
+        break;
+
+        case 7:
         printf("Sunday");
+        break;
+
+
     }
+    
 
 }
